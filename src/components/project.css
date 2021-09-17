@@ -171,7 +171,6 @@
         margin: 30px auto;
         overflow: scroll;
     }
-
     .contributions {
         border: 1px solid var(--primary_color);
         height: auto;
