@@ -52,15 +52,17 @@
     .main_links {
         width: 75%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         margin: 10% auto 0;
     }
     
     .main_links a {
+        width: 40%;
         font-family: var(--accent_font);
         color: var(--primary_color);
         font-size: 1.5rem;
-        margin: 0 5px;
+        margin: 10px 5px;
     }
 }

@@ -138,7 +138,7 @@
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 800px) {
     .active_project {
         width: 90vw;
         min-height: 100vh;
