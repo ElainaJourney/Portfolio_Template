@@ -27,6 +27,7 @@
 }
 
 .footer_links a {
+    font-size: 1.3rem;
     color: #001220;
     font-family: var(--accent_font);
 }
