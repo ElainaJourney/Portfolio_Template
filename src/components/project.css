@@ -180,3 +180,36 @@
         overflow: scroll; 
     }
 }
+
+@media screen and (max-width: 850px) {
+    .project {
+        width: 250px;
+        height: 250px;
+    }
+    .project .img_title {
+        font-size: 1.2rem;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .project {
+        width: 200px;
+        height: 200px;
+    }
+    .project .img_title {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .project {
+        width: 180px;
+        height: 180px;
+    }
+    .project .img_title {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+}
