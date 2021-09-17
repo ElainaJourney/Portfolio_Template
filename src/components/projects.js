@@ -4,7 +4,7 @@ import './projects.css';
 
 export default function Projects() {
     const [ displayProjects, setDisplayProjects ] = useState(true)
-    console.log(displayProjects)
+
     const user_projects = [
         {
             title: 'Project Title1', 

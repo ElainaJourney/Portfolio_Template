@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 
 export default function Project(props) {
     const [ isActive, setIsActive ] = useState(false)
-    const [ displayGitHub, setDisplayGitHub ] = useState(false)
     const { 
         gitHub, 
         title, 
