@@ -1,0 +1,22 @@
+#Projects {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--primary_color);
+    display: flex;
+    flex-direction: column;
+}
+
+#Projects .section_title {
+    height: 10vh;
+    font-family: var(--accent_font);
+    font-size: 3rem;
+    margin: 25px auto;
+}
+
+.projects_wrapper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 25px auto 100px;
+}
