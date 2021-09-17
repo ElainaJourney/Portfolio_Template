@@ -1,15 +1,18 @@
 #Projects {
     width: 100%;
     min-height: 100vh;
-    background: var(--primary_color);
+    background-image: url('../photos/stacked-peaks-haikei.svg');
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
 }
 
 #Projects .section_title {
     height: 10vh;
+    color: var(--primary_color);
     font-family: var(--accent_font);
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 25px auto;
 }
 

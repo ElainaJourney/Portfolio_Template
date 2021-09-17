@@ -49,7 +49,6 @@
     right: 10vw;
     z-index: 100;
     background: rgb(0, 0, 0, .9);
-    border: 5px solid var(--accent_color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,7 +64,7 @@
 }
 
 .active_project .git_hub a{
-    margin-right: 25px;
+    margin: 0 50px;
     font-size: 4rem;
     color: var(--primary_color);
 }
@@ -105,12 +104,6 @@
     border: 1px solid var(--primary_color);
     padding: 5px 20px;
     margin: -10px auto 0;
-}
-
-.active_project .non_img_title:hover {
-    text-decoration: none;
-    color: var(--secondary_color);
-    background: var(--primary_color);
 }
 
 .active_project .proj_texts {

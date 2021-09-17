@@ -39,13 +39,14 @@ export default function Project(props) {
                         <i className="lni lni-github-original"></i>
                     </a>
                 </span>
-                <h3 
-                    className='non_img_title'
-                    onMouseEnter={() => setDisplayGitHub(!displayGitHub)}
-                    onMouseLeave={() => setDisplayGitHub(!displayGitHub)}
-                >
-                    {displayGitHub ? 'GitHub' : title}
+                <h3 className='non_img_title'>
+                    {title}
                 </h3>
+                <span className='git_hub'>
+                    <a href='github'>
+                        <i className="lni lni-website"></i>
+                    </a>
+                </span>
             </div>
             <div className='proj_texts'>
                 <p className='description'>{description}</p>
