@@ -160,6 +160,8 @@
     .description, .contributions {
         width: 100%;
         font-size: 1rem;
+        line-height: 1.5;
+
     }
     .description {
         border-left: 1px solid var(--primary_color);
