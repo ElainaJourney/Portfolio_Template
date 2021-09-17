@@ -27,6 +27,7 @@
 
 
 - [ ] Deploy to your platform of choosing
-- [ ] Contact me if you need some fine tuning or have any questions
+
+- Contact me if you need some fine tuning or have any questions
     - devin.a.mitchell@gmail.com
 
