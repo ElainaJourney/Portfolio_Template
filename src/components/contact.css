@@ -50,5 +50,13 @@
     transform: scale(1.2);
 }
 
+@media screen and (max-width: 414px) {
+    .footer_links a:nth-child(2),
+    .footer_links a:nth-child(3) {
+        display: none;
+    }
 
-
+    .footer_icon_wrapper a {
+        margin: 0 10px;
+    }
+}   
