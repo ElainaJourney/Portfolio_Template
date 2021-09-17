@@ -4,7 +4,7 @@ import './projects.css';
 
 export default function Projects() {
     const [ displayProjects, setDisplayProjects ] = useState(true)
-    console.log(displayProjects)
+
     const user_projects = [
         {
             title: 'Project Title1', 
@@ -13,8 +13,11 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
             ],
-            gitHub: '' // add a link to repo here
+            gitHub: '', // add a link to repo here (leave blank to not display icon)
+            deployed_site: '', //if you have a deployed site then feel free to add it (leave blank to not display icon)
         },
         {
             title: 'Project Title2', 
@@ -24,7 +27,8 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
             ],
-            gitHub: '' // add a link to repo here
+            gitHub: '', // add a link to repo here (leave blank to not display icon)
+            deployed_site: '', //if you have a deployed site then feel free to add it (leave blank to not display icon)
         },
         {
             title: 'Project Title3', 
@@ -34,7 +38,8 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
             ],
-            gitHub: '' // add a link to repo here
+            gitHub: '', // add a link to repo here (leave blank to not display icon)
+            deployed_site: '', //if you have a deployed site then feel free to add it (leave blank to not display icon)
         },
         {
             title: 'Project Title4', 
@@ -44,13 +49,14 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
             ],
-            gitHub: '' // add a link to repo here
+            gitHub: '', // add a link to repo here (leave blank to not display icon)
+            deployed_site: '', //if you have a deployed site then feel free to add it (leave blank to not display icon)
         },
     ]
 
     return (
         <div id='Projects'>
-            <h3 className='section_title'>- Projects -</h3>
+            <h3 className='section_title'>- PROJECTS -</h3>
             {displayProjects && <div className='projects_wrapper'>
                 {user_projects.map((proj, index) => {
                     return(

@@ -17,7 +17,7 @@
 .project .description,
 .project .contributions,
 .project .exit_icon,
-.project  .git_hub {
+.project  .icon_wrap {
     display: none;
 }
 
@@ -49,7 +49,6 @@
     right: 10vw;
     z-index: 100;
     background: rgb(0, 0, 0, .9);
-    border: 5px solid var(--accent_color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,6 +61,21 @@
 .active_project .exit_icon {
     display: initial;
     color: var(--primary_color);
+}
+
+.active_project .icon_wrap a{
+    margin: 0 50px;
+    font-size: 4rem;
+    color: var(--primary_color);
+}
+
+.active_project .icon_wrap a:hover {
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.active_project .icon_wrap i:hover {
+    transform: scale(1.1);
 }
 
 .active_project .img_title {
@@ -92,12 +106,6 @@
     margin: -10px auto 0;
 }
 
-.active_project .non_img_title:hover {
-    text-decoration: none;
-    color: var(--secondary_color);
-    background: var(--primary_color);
-}
-
 .active_project .proj_texts {
     display: flex;
     align-items: center;
@@ -126,5 +134,82 @@
 }
 
 .contribution {
-    margin-bottom: 30px;
+    margin: 30px;
+}
+
+
+@media screen and (max-width: 414px) {
+    .active_project {
+        width: 90vw;
+        min-height: 100vh;
+        right: 5vw;
+        background: rgb(0, 0, 0);
+    }
+    .active_project .non_img_title {
+        font-size: 2rem;
+    }
+    .active_project .icon_wrap a{
+        margin: 0 10px;
+        font-size: 2rem;
+        color: var(--primary_color);
+    }
+    .active_project .proj_texts {
+        flex-direction: column;
+        width: 80%;
+    }
+    .description, .contributions {
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.5;
+
+    }
+    .description {
+        border-left: 1px solid var(--primary_color);
+        border-right: 1px solid var(--primary_color);
+        border-bottom: 1px solid var(--primary_color);
+        box-shadow:  none;
+        min-height: 50%;
+        padding: 0 10px;
+        margin: 30px auto;
+        overflow: scroll;
+    }
+    .contributions {
+        border: 1px solid var(--primary_color);
+        height: auto;
+        margin: auto;
+        overflow: scroll; 
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .project {
+        width: 250px;
+        height: 250px;
+    }
+    .project .img_title {
+        font-size: 1.2rem;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .project {
+        width: 200px;
+        height: 200px;
+    }
+    .project .img_title {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .project {
+        width: 180px;
+        height: 180px;
+    }
+    .project .img_title {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
 }

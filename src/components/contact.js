@@ -1,4 +1,6 @@
 import React from 'react'
+import './contact.css'
+
 
 export default function Contact() {
     const user = {
@@ -9,11 +11,13 @@ export default function Contact() {
 
     return (
         <div id='Contact'>
-           {user.resume && <a className='user_cv' href={user.resume} download>CV</a>}
-           <div className='footer_links'>
+            <div className='cv_wrapper'>
+                {user.resume && <a href={user.resume} download>CV</a>}
+            </div>
+            <div className='footer_links'>
                 <a href='/'>Home</a>
-                <a href='#projects'>Projects</a>
-                <a href='#about'>About</a>
+                <a href='#Projects'>Projects</a>
+                <a href='#About'>About</a>
             </div>
             <div className='footer_icon_wrapper'>
                 <a href={user.linkedIn}><i className="lni lni-linkedin-original"></i></a>
