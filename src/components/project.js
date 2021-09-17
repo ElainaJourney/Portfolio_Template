@@ -34,19 +34,19 @@ export default function Project(props) {
                 <h3 className='img_title'>{title}</h3>
             </div>
             <div>
-                <span className='icon_wrap'>
+               {gitHub && <span className='icon_wrap'>
                     <a href={gitHub}>
                         <i className="lni lni-github-original"></i>
                     </a>
-                </span>
+                </span>}
                 <h3 className='non_img_title'>
                     {title}
                 </h3>
-                <span className='icon_wrap'>
+                {deployed_site &&<span className='icon_wrap'>
                     <a href={deployed_site}>
                         <i className="lni lni-website"></i>
                     </a>
-                </span>
+                </span>}
             </div>
             <div className='proj_texts'>
                 <p className='description'>{description}</p>
