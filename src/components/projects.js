@@ -13,6 +13,8 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
             ],
             gitHub: '', // add a link to repo here (leave blank to not display icon)
             deployed_site: '', //if you have a deployed site then feel free to add it (leave blank to not display icon)

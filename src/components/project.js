@@ -42,7 +42,7 @@ export default function Project(props) {
                 <h3 className='non_img_title'>
                     {title}
                 </h3>
-                {deployed_site &&<span className='icon_wrap'>
+                {deployed_site && <span className='icon_wrap'>
                     <a href={deployed_site}>
                         <i className="lni lni-website"></i>
                     </a>

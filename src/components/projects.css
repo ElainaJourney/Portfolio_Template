@@ -27,3 +27,11 @@
 .img_title {
     font-family: var(--main_font);
 }
+
+@media screen and (max-width: 414px) {
+    .projects_wrapper {
+        display: flex;
+        flex-direction: column; 
+    }
+
+}
