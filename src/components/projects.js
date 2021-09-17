@@ -54,7 +54,7 @@ export default function Projects() {
 
     return (
         <div id='Projects'>
-            <h3 className='section_title'>- Projects -</h3>
+            <h3 className='section_title'>- PROJECTS -</h3>
             {displayProjects && <div className='projects_wrapper'>
                 {user_projects.map((proj, index) => {
                     return(
