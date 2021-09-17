@@ -28,6 +28,7 @@
 
 .footer_links a {
     color: #001220;
+    font-family: var(--accent_font);
 }
 
 .footer_links a:hover {
