@@ -9,6 +9,7 @@ export default function Project(props) {
         title, 
         description, 
         contributions,
+        deployed_site
     } = props.proj
 
     const handleClick = () => {
@@ -34,16 +35,16 @@ export default function Project(props) {
                 <h3 className='img_title'>{title}</h3>
             </div>
             <div>
-                <span className='git_hub'>
-                    <a href='github'>
+                <span className='icon_wrap'>
+                    <a href={gitHub}>
                         <i className="lni lni-github-original"></i>
                     </a>
                 </span>
                 <h3 className='non_img_title'>
                     {title}
                 </h3>
-                <span className='git_hub'>
-                    <a href='github'>
+                <span className='icon_wrap'>
+                    <a href={deployed_site}>
                         <i className="lni lni-website"></i>
                     </a>
                 </span>

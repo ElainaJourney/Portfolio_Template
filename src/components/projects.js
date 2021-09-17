@@ -14,7 +14,8 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
             ],
-            gitHub: '' // add a link to repo here
+            gitHub: '', // add a link to repo here
+            deployed_site: '',
         },
         {
             title: 'Project Title2', 
@@ -24,7 +25,8 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
             ],
-            gitHub: '' // add a link to repo here
+            gitHub: '', // add a link to repo here
+            deployed_site: '',
         },
         {
             title: 'Project Title3', 
@@ -34,7 +36,8 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
             ],
-            gitHub: '' // add a link to repo here
+            gitHub: '', // add a link to repo here
+            deployed_site: '',
         },
         {
             title: 'Project Title4', 
@@ -44,7 +47,8 @@ export default function Projects() {
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', 
             ],
-            gitHub: '' // add a link to repo here
+            gitHub: '', // add a link to repo here
+            deployed_site: '',
         },
     ]
 

@@ -17,7 +17,7 @@
 .project .description,
 .project .contributions,
 .project .exit_icon,
-.project  .git_hub {
+.project  .icon_wrap {
     display: none;
 }
 
@@ -63,18 +63,18 @@
     color: var(--primary_color);
 }
 
-.active_project .git_hub a{
+.active_project .icon_wrap a{
     margin: 0 50px;
     font-size: 4rem;
     color: var(--primary_color);
 }
 
-.active_project .git_hub a:hover {
+.active_project .icon_wrap a:hover {
     border-bottom: none;
     text-decoration: none;
 }
 
-.active_project .git_hub i:hover {
+.active_project .icon_wrap i:hover {
     transform: scale(1.1);
 }
 
