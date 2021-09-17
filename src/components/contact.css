@@ -7,19 +7,13 @@
     background-color: #c62368;
 }
 
-.user_cv {
+.cv_wrapper {
     font-size: 2rem;
     width: 33%;
+}
+
+.cv_wrapper a {
     color: #001220;
-}
-
-.no_cv {
-    width: 33%;
-    color:  #c62368;
-}
-
-.no_cv {
-    cursor: default;
 }
 
 #Contact a:hover {
@@ -34,6 +28,10 @@
 
 .footer_links a {
     color: #001220;
+}
+
+.footer_links a:hover {
+    border-bottom: 1px solid #001220;
 }
 
 .footer_icon_wrapper {
