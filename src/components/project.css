@@ -64,6 +64,21 @@
     color: var(--primary_color);
 }
 
+.active_project .git_hub a{
+    margin-right: 25px;
+    font-size: 4rem;
+    color: var(--primary_color);
+}
+
+.active_project .git_hub a:hover {
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.active_project .git_hub i:hover {
+    transform: scale(1.1);
+}
+
 .active_project .img_title {
     display: none;
 }

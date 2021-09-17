@@ -36,7 +36,7 @@ export default function Project(props) {
             <div>
                 <span className='git_hub'>
                     <a href='github'>
-                        <i class="lni lni-github-original"></i>
+                        <i className="lni lni-github-original"></i>
                     </a>
                 </span>
                 <h3 
